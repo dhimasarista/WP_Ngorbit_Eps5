@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px 50px;
     text-align: center;
@@ -124,4 +128,9 @@ body.dark section img {
     box-shadow: black 5px 5px 0px 0px;
     margin: 10px;
     padding: 10px;
+    align-items: center;
+}
+
+.portfolio img {
+    width: 300px !important;
 }
