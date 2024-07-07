@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio</title>
+    <!-- Menambahkan link ke file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+    <h1>Dhimas Arista</h1>
+    <!-- Bagian header dengan navigasi -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Tombol untuk mengubah tema -->
+    <button id="change-theme">Dark Mode</button>
+    <!-- Bagian home -->
+    <section id="about">
+        <h1>About</h1>
+        <div class="content-home">
+            <p>
+                Hai, Saya Dhimas Arista mahasiswa Universitas Siber Asia jurusan PJJ Informatika.
+                Saya menyukai bidang backend dan mobile development.
+            </p>
+            <img src="./images/profile.jpg" alt="pictures">
+        </div>
+    </section>
+    <!-- Bagian skills -->
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="list-skills">
+            <div class="skill">
+                <h2>CSharp</h2>
+                <img src="./images/cs.png">
+            </div>
+            <div class="skill">
+                <h2>JavaScript</h2>
+                <img src="./images/js.png">
+            </div>
+        </div>
+    </section>
+    <!-- Bagian portfolio -->
+    <section id="portfolio">
+        <h1>Portfolios</h1>
+        <div class="list-portfolios">
+            <div class="portfolio">
+                <h2>1st Portfolio</h2>
+                <p>Saya membangun portofolio dengan HTML, CSS, dan JavaScript</p>
+                <a href="https://github.com/dhimasarista/dhimasarista" target="_blank">Github</a>
+            </div>
+            <div class="portfolio">
+                <h2>2nd Portfolio</h2>
+                <p>Saya membuat desain menggunakan Figma</p>
+                <a href="https://figma.com">Figma</a>
+            </div>
+            <div class="portfolio">
+                <h2>3rd Portfolio</h2>
+                <p>Saya membuat REST API menggunakan ASP.NET Core</p>
+                <a href="https://github.com">Github</a>
+            </div>
+        </div>
+    </section>
+    <!-- Bagian contact -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="content-contact">
+            <h3>No. Phone : <a href="tel:+6285157248841">085157248841</a></h3>
+            <h3>Email: <a href="mailto:mdhimasarista@gmail.com">mdhimasarista@gmail.com</a></h3>
+        </div>
+    </section>
+    <!-- Menambahkan link ke file JavaScript eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
